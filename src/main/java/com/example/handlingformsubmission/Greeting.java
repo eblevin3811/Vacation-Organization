@@ -4,6 +4,7 @@ public class Greeting {
 
 	private long id;
 	private String content;
+	private String name;
 
 	public long getId() {
 		return id;
@@ -19,6 +20,14 @@ public class Greeting {
 
 	public void setContent(String content) {
 		this.content = content;
+	}
+
+	public String getName(){
+		return name;
+	}
+
+	public void setName(String name){
+		this.name = name;
 	}
 
 }
